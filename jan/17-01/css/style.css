@@ -63,7 +63,17 @@ section div {
 #green {
   background-color: green;
 }
-
+/* Home main */
+.something {
+  width: 10rem;
+  height: 20rem;
+  background-color: deepskyblue;
+  margin: 20rem 5rem 5rem 2rem;
+  /* border: 12px red solid; */
+  border-width: 10px 22px 30px 10px;
+  border-color: red orange blue gray;
+  border-style: dashed solid dashed solid;
+}
 /* About main  */
 main img {
   width: 200px;
@@ -72,7 +82,7 @@ main img {
   padding: 10px;
 }
 /* Shapes */
- .shapes div {
+.shapes div {
   width: 9rem;
   height: 9rem;
   display: inline-block;
@@ -94,4 +104,14 @@ main img {
 #circle {
   background-color: yellow;
   border-radius: 50%;
-} */
+}
+
+h1 {
+  color: black;
+  /* letter-spacing: 50px; */
+  word-spacing: 50px;
+  text-indent: 100px;
+}
+p {
+  line-height: 40px;
+}

@@ -1,3 +1,45 @@
-div { 
-    border: black;
-} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+ 
+ 
+  
+
+ 
+  
+  
+ 
+ #green {
+    background-color: green;
+  }
+  
+  .shapes div {
+    width: 9rem;
+    height: 9rem;
+    display: inline-block;
+    border: 2px black solid;
+    margin-left: 3rem;
+  }
+  #rectangle {
+    height: 15rem;
+    background-color: lightskyblue;
+  }
+  #triangle {
+    background-color: purple;
+    
+  }
+  #square {
+    background-color: green;
+  }
+  
+  #circle {
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  
+ 
+  
