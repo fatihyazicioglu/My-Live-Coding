@@ -4,15 +4,7 @@
     box-sizing: border-box;
   }
   
- 
- 
- 
-  
 
- 
-  
-  
- 
  #green {
     background-color: green;
   }
@@ -26,10 +18,17 @@
   }
   #rectangle {
     height: 15rem;
-    background-color: lightskyblue;
+    background-color: rgb(23, 136, 206);
   }
   #triangle {
-    background-color: purple;
+    background-color: purple
+    border-left: 20px  ;
+    border-right: 20px  ;
+    border-bottom: 20px  ;
+    border-top: 20px ;
+    
+    
+    ;
     
   }
   #square {
