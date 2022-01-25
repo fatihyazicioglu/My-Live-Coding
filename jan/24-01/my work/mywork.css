@@ -41,7 +41,7 @@ fieldset input:focus , select:focus{
     position: relative;
     width: 4rem;
     height: 4rem;
-    border: 2px red dashed;
+    
     margin-left: 1rem;
 }
 
@@ -51,7 +51,7 @@ fieldset input:focus , select:focus{
     right: 0;
     bottom: 0;
     left: 0;
-    border: 2px orange dashed;
+    border: 2px black solid;
     cursor: pointer;
     background-color: greenyellow;
     border-radius: 30%;
@@ -72,6 +72,8 @@ input:checked + .slider{
     background-color: indigo;
 }
 
-input:checked .slider::before{
-    transform: ;
+input:checked +.slider::before{
+    transform: translateX(2.5rem);
+    transition: 2s;
 }
+
