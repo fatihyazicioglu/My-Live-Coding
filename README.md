@@ -1,11 +1,11 @@
 # live-coding
 
-<<<<<<< HEAD
+ HEAD
 ### [BDL](https://github.com/FbW-WD21-E11/live-coding/blob/main/BDL.md)
 ### [UIB](https://github.com/FbW-WD21-E11/live-coding/blob/main/UIB.md)
 
 # Gallery-Wall
-=======
+
 ## Important Basics 
 
 1. Git and Github
@@ -26,4 +26,4 @@
 
 
 
->>>>>>> eac9077563ac51146e3557145e111c9e78b50aab
+
