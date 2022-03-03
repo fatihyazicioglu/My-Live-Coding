@@ -1,0 +1,16 @@
+@mixin rest-list{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+@mixin center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+@mixin box-size{
+    width:3rem;
+    height:3rem;
+}
