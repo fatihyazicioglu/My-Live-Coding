@@ -1,0 +1,599 @@
+/*
+to check something
+ @if  (your condition){
+    true
+   }
+    @else{
+        false
+    }
+*/
+.box1 {
+  width: 10px;
+  background-color: orange;
+  height: 5rem;
+}
+
+.box2 {
+  width: 20px;
+  background-color: black;
+  height: 5rem;
+}
+
+.box3 {
+  width: 10px;
+  background-color: gray;
+  height: 5rem;
+}
+
+@-webkit-keyframes move {
+  from {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  to {
+    -webkit-transform: scaleY(1.5);
+            transform: scaleY(1.5);
+  }
+}
+
+@keyframes move {
+  from {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  to {
+    -webkit-transform: scaleY(1.5);
+            transform: scaleY(1.5);
+  }
+}
+
+.main-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[30];
+      grid-template-columns: repeat(30, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  height: 100vh;
+}
+
+.item:nth-child(1) {
+  background-color: #ffe4b3;
+  height: 18vh;
+  border-radius: 20% 0;
+  background-color: #a0a047;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(2) {
+  background-color: #ffb938;
+  height: 30vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(3) {
+  background-color: #ffc252;
+  height: 35vh;
+  border-radius: 20% 0;
+  background-color: #92a840;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(4) {
+  background-color: #ffe0a8;
+  height: 7vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(5) {
+  background-color: #ffdd9e;
+  height: 27vh;
+  border-radius: 20% 0;
+  background-color: #9ab785;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(6) {
+  background-color: #ffbe47;
+  height: 24vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(7) {
+  background-color: #ffc252;
+  height: 24vh;
+  border-radius: 20% 0;
+  background-color: #c684a9;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(8) {
+  background-color: #ffb329;
+  height: 38vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(9) {
+  background-color: #ffcd70;
+  height: 2vh;
+  border-radius: 20% 0;
+  background-color: #208035;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(10) {
+  background-color: #ffa90a;
+  height: 16vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(11) {
+  background-color: #ffce75;
+  height: 33vh;
+  border-radius: 20% 0;
+  background-color: #aa7ed0;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(12) {
+  background-color: #ffe6b8;
+  height: 19vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(13) {
+  background-color: #ffebc7;
+  height: 19vh;
+  border-radius: 20% 0;
+  background-color: #7555a2;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(14) {
+  background-color: #ffaa0f;
+  height: 2vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(15) {
+  background-color: #ffb329;
+  height: 30vh;
+  border-radius: 20% 0;
+  background-color: #9b948a;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(16) {
+  background-color: #ffc55c;
+  height: 30vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(17) {
+  background-color: #ffe4b3;
+  height: 24vh;
+  border-radius: 20% 0;
+  background-color: #2e6bb9;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(18) {
+  background-color: #ffe6b8;
+  height: 38vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(19) {
+  background-color: #ffb329;
+  height: 13vh;
+  border-radius: 20% 0;
+  background-color: #498ad5;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(20) {
+  background-color: #ffc761;
+  height: 15vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 19s;
+          animation-duration: 19s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(21) {
+  background-color: #ffe0a8;
+  height: 8vh;
+  border-radius: 20% 0;
+  background-color: #2c2ba1;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(22) {
+  background-color: #ffe2ad;
+  height: 17vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(23) {
+  background-color: #ffdb99;
+  height: 25vh;
+  border-radius: 20% 0;
+  background-color: #c93e58;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(24) {
+  background-color: #ffb224;
+  height: 9vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 24s;
+          animation-duration: 24s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(25) {
+  background-color: #ffc252;
+  height: 26vh;
+  border-radius: 20% 0;
+  background-color: #229d56;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(26) {
+  background-color: #ffcb6b;
+  height: 17vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(27) {
+  background-color: #ffc966;
+  height: 38vh;
+  border-radius: 20% 0;
+  background-color: #178ad8;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(28) {
+  background-color: #ffc761;
+  height: 7vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(29) {
+  background-color: #ffdd9e;
+  height: 8vh;
+  border-radius: 20% 0;
+  background-color: #29c9c5;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 22s;
+          animation-duration: 22s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.item:nth-child(30) {
+  background-color: #ffcd70;
+  height: 9vh;
+  border-radius: 20% 0;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+/*# sourceMappingURL=main.css.map */

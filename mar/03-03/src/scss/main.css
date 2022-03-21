@@ -1,0 +1,47 @@
+ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.box {
+  height: 250px;
+  background-color: orange;
+  border-radius: 50%;
+  width: 3rem;
+  background-color: black;
+}
+
+section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 18px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid #000;
+}
+/*# sourceMappingURL=main.css.map */
