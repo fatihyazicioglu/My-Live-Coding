@@ -1,4 +1,4 @@
-# 28-03 - Conditional statement
+# 29-03 - Conditional statement
 
 - introduction to algorithms
 - conditional statements
