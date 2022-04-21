@@ -58,4 +58,4 @@ console.log("second last item:", iceCreamFlavors[iceCreamFlavors.length - 2]);
 
 // print 2 values at the same time
 // not possible, we need a method (like slice for strings)
-// console.log("2 items at the same time", iceCreamFlavors[2, 4]); 
+console.log("2 items at the same time", iceCreamFlavors[2, 4]); 

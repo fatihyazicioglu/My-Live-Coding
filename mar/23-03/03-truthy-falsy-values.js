@@ -42,3 +42,7 @@ let userName = "yia";
 console.log(
   userName ? `your username is ${userName}` : "please enter a valid username"
 );
+console.log("hello" ? "1" : "2"); //1
+
+console.log("" ? "1" : "2"); //2
+console.log(100 ? "1" : "2"); //1

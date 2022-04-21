@@ -67,16 +67,16 @@ console.log(greeting8); // hello mickey
 console.log(greeting9); // hello guest
 
 
-const customGreeting = function (greeting = "hello", userName = "guest") {
-  return `${greeting} ${userName}`;
-};
+// const customGreeting = function (greeting = "hello", userName = "guest") {
+//   return `${greeting} ${userName}`;
+// };
 
-let customGreeting1 = customGreeting("hi", "joseph");
-let customGreeting2 = customGreeting("hallo", "josephine");
-let customGreeting3 = customGreeting("hey");
-let customGreeting4 = customGreeting(undefined, "carlo");
+// let customGreeting1 = customGreeting("hi", "joseph");
+// let customGreeting2 = customGreeting("hallo", "josephine");
+// let customGreeting3 = customGreeting("hey");
+// let customGreeting4 = customGreeting(undefined, "carlo");
 
->>>>>>> db4220dcf4230395a335568d2aaf274eb4250346
+// >>>>>>> db4220dcf4230395a335568d2aaf274eb4250346
 
 console.log(customGreeting1);
 console.log(customGreeting2);

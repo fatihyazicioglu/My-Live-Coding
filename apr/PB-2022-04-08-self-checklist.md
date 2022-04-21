@@ -1,9 +1,9 @@
 # Checklist
 
-- [ ] run a JavaScript program using the `node` command
-- [ ] add a JavaScript program in an HTML file and run it in the browser
-- [ ] know JavaScript variables and constant
-- [ ] know how to declare a variable or a constant
+- [+] run a JavaScript program using the `node` command
+- [+] add a JavaScript program in an HTML file and run it in the browser
+- [+] know JavaScript variables and constant
+- [+] know how to declare a variable or a constant
 - [ ] know all JavaScript data types (primitive and not)
 - [ ] know the difference between data types
 - [ ] know different ways of creating a string
