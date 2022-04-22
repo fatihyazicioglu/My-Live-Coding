@@ -72,12 +72,12 @@ let cards =[
     {
         user: "ahmad",
         product: "t-shirt",
-        quantity: 3
+        quantity: 9
     },
     {
         user: "fatih",
         product: "watch",
-        quantity: 3
+        quantity: 7
     },
     {
         user: "anwar",
@@ -116,7 +116,7 @@ let cards =[
     },
 ]
 
-
+//A
 function addProductToCart(item){
     cards.push(item)
 }
@@ -126,3 +126,28 @@ product: "product1",
 quantity: 3})
 
 console.log(cards);
+
+//B
+let givenUser =(pro) =>{
+for (let i = 0; i < cards.length; i++) {
+    if (cards[i].user===pro) {
+        console.log(`The products that ${pro} has :}`,cards[i].product);
+    }
+    
+}
+}
+givenUser("mikael")
+
+
+//C
+let givenUserItems =(it) =>{
+let total = 0
+    for (let i = 0; i < cards.length; i++) {
+        if (cards[i].user===it) {
+            total +=cards[i].quantity
+        }
+        
+    }
+    console.log(total);
+}
+    givenUserItems("ahmad")
