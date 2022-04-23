@@ -1,14 +1,14 @@
-// function randomGreet(name) {
-//   const greetings = ["hola", "ciao", "hello", "hallo", "hey"];
-//   const randomIndex = Math.floor(Math.random() * greetings.length);
-//   const greeting = greetings[randomIndex];
-//   const message = `${greeting} ${name}`;
+function randomGreet(name) {
+  const greetings = ["hola", "ciao", "hello", "hallo", "hey"];
+  const randomIndex = Math.floor(Math.random() * greetings.length);
+  const greeting = greetings[randomIndex];
+  const message = `${greeting} ${name}`;
 
-//   return message;
-// }
+  return message;
+}
 
-// const randomMessage = randomGreet("Jacob");
-// console.log(randomMessage);
+const randomMessage = randomGreet("Jacob");
+console.log(randomMessage);
 
 // remove all the duplicate animals
 let animals = ["cat", "dog", "cat", "elephant"];
