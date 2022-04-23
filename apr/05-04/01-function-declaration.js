@@ -72,16 +72,17 @@ console.log(double(4));
 console.log(double2(4));
 
 const isItLaterThan8 = hour => hour >= 8 ? "it's later than 8" : "it's NOT later than 8";
+console.log(isItLaterThan8(10));
 
-// mainFunction();
+mainFunction();
 
-// function mainFunction() {
-//     const hello = (name) => `hello ${name}`;
+function mainFunction() {
+    const hello = (name) => `hello ${name}`;
 
-//     return hello("carlo");
-// }
+    return hello("carlo");
+}
 
-
+//console.log(mainFunction());
 
 
 
