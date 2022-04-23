@@ -15,7 +15,7 @@ let money = 10;
 let breadPrice = 4;
 let applePrice = 1;
 let bananaPrice = 2;
-let iceCreamPrice = 6;
+let iceCreamPrice = 20;
 
 if (money >= breadPrice) {
   console.log("buy the bread");
