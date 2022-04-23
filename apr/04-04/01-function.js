@@ -9,7 +9,7 @@ function double(n) {
   return n * 2;
 }
 
-let result = double(3);
+let result = double(7);
 
 console.log(result);
 
@@ -133,7 +133,9 @@ function describePerson(name, age, eyeColor, hairColor) {
   const description = `${name} is ${age} years old, has ${eyeColor} eyes and ${hairColor} hair`;
   return description;
 }
-
+function describePerson1(name1,age1,eyeColor,hairColor1) {
+  const description1 =`${name1} ist ${age1} years old, has ${eyeColor} and ${hairColor1} hair`;
+}
 /**
  * Function call
  * 
