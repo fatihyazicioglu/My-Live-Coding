@@ -25,6 +25,7 @@ console.log('++test is ', ++ test)
 let test2 = 0
 console.log('test2++ is ', test2++)
 console.log('NOW test2 is ', test2)
+console.log(+test2);
 
 // for (let i = 0; i <= 10; i++) {
 
