@@ -13,7 +13,7 @@ for (let i = 0; i < 5; i++) {
 
 let money = 10;
 let breadPrice = 4;
-let applePrice = 1;
+let applePrice = 22;
 let bananaPrice = 2;
 let iceCreamPrice = 20;
 
