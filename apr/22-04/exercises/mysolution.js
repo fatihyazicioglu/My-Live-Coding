@@ -151,3 +151,8 @@ let total = 0
     console.log(total);
 }
     givenUserItems("ahmad")
+
+
+
+    //D
+    let 
