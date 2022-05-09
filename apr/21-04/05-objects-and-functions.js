@@ -25,34 +25,59 @@ const person4 = {
  * create a function called tallerPerson that takes 2 objects in input and
  * returns the object with the larger height
  */
-function tallerPerson(obj1, obj2) {
-  if (obj1.height > obj2.height) {
+// function tallerPerson(obj1, obj2) {
+//   if (obj1.height > obj2.height) {
+//     return obj1;
+//   } else {
+//     return obj2;
+//   }
+// }
+
+// const tallPerson = tallerPerson(person1, person2);
+// console.log("The tallest person is", tallPerson);
+//console.log("The tallest person is", tallPerson.firstName);
+function tallerPerson (obj1,obj2){
+  
+  if (obj1.height>obj2.height){
     return obj1;
-  } else {
+  }else {
     return obj2;
   }
 }
+const tallPerson =tallerPerson(person1,person2)
 
-const tallPerson = tallerPerson(person1, person2);
-console.log("The tallest person is", tallPerson);
+console.log("the tallest person ist:", tallPerson);
 console.log("The tallest person is", tallPerson.firstName);
 
-const tallPerson2 = tallerPerson(person3, person4);
-const tallPerson3 = tallerPerson(person2, person4);
 
-// deal with missing key or value
+// const tallPerson2 = tallerPerson(person3, person4);
+// const tallPerson3 = tallerPerson(person2, person4);
+
+// // deal with missing key or value
 
 
 
-// a function that checks who's older and returns the name of that person
-function olderPerson(obj1, obj2) {
-  if (obj1.age > obj2.age) {
+// // a function that checks who's older and returns the name of that person
+// function olderPerson(obj1, obj2) {
+//   if (obj1.age > obj2.age) {
+//     return obj1.firstName;
+//   } else {
+//     return obj2.firstName;
+//   }
+// }
+
+// console.log(olderPerson(person1, person2))
+// console.log(olderPerson(person3, person4))
+// console.log(olderPerson(person2, person4))
+
+function olderPerson (obj1, obj2){
+  if (obj1.age>obj2.age) {
     return obj1.firstName;
+    
   } else {
     return obj2.firstName;
   }
-}
 
-console.log(olderPerson(person1, person2))
-console.log(olderPerson(person3, person4))
+}
+console.log(olderPerson(person1,person3));
 console.log(olderPerson(person2, person4))
