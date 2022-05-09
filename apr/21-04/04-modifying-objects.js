@@ -19,32 +19,38 @@ const personObject = {
 
 
   // 1 year has passed, let's update person's age
-  personObject.age = 29;
+ personObject.age = 29;
 
+   console.log(personObject);
+
+  // // whatever the age is, increase it by 1
+   personObject.age += 1; // personObject.age = personObject.age + 1
+  console.log(personObject);
   console.log(personObject);
 
-  // whatever the age is, increase it by 1
-  personObject.age += 1; // personObject.age = personObject.age + 1
-  console.log(personObject);
 
-  // whatever the age is, increase it by 1
+  // // whatever the age is, increase it by 1
   personObject.age++; 
-  console.log(personObject);
+   console.log(personObject);
+   personObject.age +=1 ;
+   console.log(personObject);
 
 
-  // add a new hobby to person's hobbies
-  personObject.hobbies.push("cooking");
 
-  console.log(personObject);
+  // // add a new hobby to person's hobbies
+   personObject.hobbies.push("cooking");
+  personObject.hobbies.push("swimming")
+
+   console.log(personObject);
 
 
-  // let's add the last name property to the object
+  // // let's add the last name property to the object
   personObject.lastName = "Smith";
   console.log(personObject);
 
-  personObject.firstName = personObject.firstName.toUpperCase();
-  console.log(personObject);
+   personObject.firstName = personObject.firstName.toUpperCase();
+   console.log(personObject);
 
-  // let's add the zipcode to the person address
-  personObject.address.zipCode = "12345";
-  console.log(personObject);
+  // // let's add the zipcode to the person address
+   personObject.address.zipCode = "12345";
+   console.log(personObject);
