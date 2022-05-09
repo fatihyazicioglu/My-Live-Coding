@@ -53,7 +53,9 @@ for (let i = 0; i < products.length; i++) {
 console.log('1st product is:', products[0].name, ' this is the 2nd param', 'another item')
 // console.log('1st product is:', products[0])
 
-console.log('The total products are', products.length.toString())
+console.log('The total products aren', products.length.toString())
+console.log('The total products aren', products.length)
+
 // `` // backticks
 // "" // double quotes
 // '' // single quotes

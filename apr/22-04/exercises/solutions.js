@@ -164,6 +164,7 @@ function listProductsForUser(user, array) {
 
 listProductsForUser('george', carts)
 
+
 // c
 function getTotalItemsForUser(user, array) {
     // 1. find the objects for that user
@@ -184,7 +185,7 @@ function getTotalItemsForUser(user, array) {
 
     console.log('Total items for user', user ,'is', total)
 }
-getTotalItemsForUser("alkis", carts);
+getTotalItemsForUser("jim", carts);
 
 // d) change the quantity of a given product in that cart
 function updateQuantity(array, user, product, quantity) {
@@ -201,66 +202,68 @@ function updateQuantity(array, user, product, quantity) {
 updateQuantity(carts, 'alkis', 'Hat', 15)
 console.log("🚀 ~ file: 02-solutions.js ~ line 243 ~ updateQuantity", carts)
 
-// e) delete a product from the cart
-function deleteProduct(array, user, product) {
+
+
+// // e) delete a product from the cart
+// function deleteProduct(array, user, product) {
     
-    let idx = -1; // initialize it with -1 which means that product is not found by default
+//     let idx = -1; // initialize it with -1 which means that product is not found by default
 
-    for (let i = 0; i < array.length; i++) {
+//     for (let i = 0; i < array.length; i++) {
         
-        if (array[i].user === user && array[i].product === product ) {
-            idx = i
-        }
-    }
+//         if (array[i].user === user && array[i].product === product ) {
+//             idx = i
+//         }
+//     }
 
-    // if idx > 0 then product was found
-    if (idx > -1) array.splice(idx, 1)
-}
-deleteProduct(carts, 'alkis', 'Hat')
-console.log("🚀 ~ file: 02-solutions.js ~ line 259 ~ deleteProduct", carts)
+//     // if idx > 0 then product was found
+//     if (idx > -1) array.splice(idx, 1)
+// }
+// deleteProduct(carts, 'alkis', 'Hat')
+// console.log("🚀 ~ file: 02-solutions.js ~ line 259 ~ deleteProduct", carts)
 
-// f) find the total value of the cart of a given user
+// // f) find the total value of the cart of a given user
 
-function getTotalCartForUser(user, cartsArray, productsArray) {
+// function getTotalCartForUser(user, cartsArray, productsArray) {
 
-    // 1. find the products for the user
-    const userItems = [];
+//     // 1. find the products for the user
+//     const userItems = [];
 
-    for(let i = 0; i < cartsArray.length; i++ ) {
-        if (cartsArray[i].user === user) {
-            userItems.push(cartsArray[i])
-        }
-    }
+//     for(let i = 0; i < cartsArray.length; i++ ) {
+//         if (cartsArray[i].user === user) {
+//             userItems.push(cartsArray[i])
+//         }
+//     }
 
-    // 2. build an arrays with product names and prices
-    const itemsWithPrices = [];
+//     // 2. build an arrays with product names and prices
+//     const itemsWithPrices = [];
 
-    const prices = [];
+//     const prices = [];
 
-    for(let i = 0; i < userItems.length; i++) {
+//     for(let i = 0; i < userItems.length; i++) {
 
-        for (i1 = 0; i1 < productsArray.length; i1++) {
-            if (userItems[i].product === productsArray[i1].name) {
-                itemsWithPrices.push(productsArray[i1]);
-                break;
-            }
-        }
-    }
+//         for (i1 = 0; i1 < productsArray.length; i1++) {
+//             if (userItems[i].product === productsArray[i1].name) {
+//                 itemsWithPrices.push(productsArray[i1]);
+//                 break;
+//             }
+//         }
+//     }
 
-    for (let i = 0; i < itemsWithPrices.length; i++) {
-        prices.push(userItems[i].quantity * itemsWithPrices[i].price)
-    }
+//     for (let i = 0; i < itemsWithPrices.length; i++) {
+//         prices.push(userItems[i].quantity * itemsWithPrices[i].price)
+//     }
    
-    // 3. get the total
-    let total = 0
+//     // 3. get the total
+//     let total = 0
 
-    for (let i = 0; i < prices.length; i++) {
-        total += prices[i]
-    }
+//     for (let i = 0; i < prices.length; i++) {
+//         total += prices[i]
+//     }
 
-    console.log('userItems=', userItems)
-    console.log('itemsWithPrices=', itemsWithPrices)
-    console.log('Prices', prices)
-    console.log('Total', total)
-}
-getTotalCartForUser('alkis', carts, products)
+//     console.log('userItems=', userItems)
+//     console.log('itemsWithPrices=', itemsWithPrices)
+//     console.log('Prices', prices)
+//     console.log('Total', total)
+// }
+// getTotalCartForUser('alkis', carts, products)

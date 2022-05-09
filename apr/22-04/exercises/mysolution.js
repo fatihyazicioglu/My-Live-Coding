@@ -136,7 +136,7 @@ for (let i = 0; i < cards.length; i++) {
     
 }
 }
-givenUser("mikael")
+givenUser("anwar")
 
 
 //C
@@ -150,9 +150,9 @@ let total = 0
     }
     console.log(total);
 }
-    givenUserItems("ahmad")
+    givenUserItems("col")
 
 
 
     //D
-    let 
+    
