@@ -6,4 +6,5 @@ const person = {
 const samePerson = person;
 
 console.log(samePerson);
+
 console.log(person === samePerson);

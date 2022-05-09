@@ -80,4 +80,4 @@ function olderPerson (obj1, obj2){
 
 }
 console.log(olderPerson(person1,person3));
-console.log(olderPerson(person2, person4))
+console.log(olderPerson(person2, person4));
