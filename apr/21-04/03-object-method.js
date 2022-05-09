@@ -16,11 +16,12 @@ const personObject = {
   },
 };
 
-function speak(person) {
-  return `hello, my name is ${person.name}`;
-}
+ function speak(person) {
+return `hello, my name is ${person.name}`;
+ }
 
-console.log("speak:", speak(personObject));
+ console.log("speak:", speak(personObject));
+ console.log(personObject);
 
 console.log(personObject.introduce());
 
@@ -31,3 +32,12 @@ const myMathObject = {
 };
 
 console.log(myMathObject.sum(2, 3));
+
+
+let math ={
+  sum :function (a,b){
+    return a*b;
+  }
+}
+
+console.log(math.sum(6,4));

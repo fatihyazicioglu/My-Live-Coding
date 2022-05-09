@@ -1,12 +1,12 @@
-[]; // empty array
-[1, 2, 3];
-["hello", "hallo", "hola"];
+// []; // empty array
+// [1, 2, 3];
+// ["hello", "hallo", "hola"];
 
-{
-} // empty object
+// {
+// } // empty object
 
-console.log(typeof {});
-console.log(typeof []);
+ console.log(typeof {});
+ console.log(typeof []);
 
 let firstName = "Jessie";
 let age = 28;
@@ -38,10 +38,10 @@ let person2 = [
   ["nationality", "American"],
 ];
 
-/**
- * Objects are collection of key/value pairs
- *
- */
+// /**
+//  * Objects are collection of key/value pairs
+//  *
+//  */
 
 let personObject = {
   firstName: "Jessie",
@@ -57,14 +57,14 @@ let personObject = {
   }
 };
 
-console.log(personObject["firstName"]); // Jessie
+ console.log(personObject["firstName"]); // Jessie
 console.log(personObject["nationality"]); //
-console.log("jessie's hobbies", personObject["hobbies"]); //
-console.log("jessie's first hobby is:", personObject["hobbies"][0]); //
+ console.log("jessie's hobbies", personObject["hobbies"]); //
+ console.log("jessie's first hobby is:", personObject["hobbies"][0]); //
 
 for (let i = 0; i < personObject["hobbies"].length; i++) {
   console.log(personObject["hobbies"][i]);
-}
+ }
 
 const product = {
   brand: "Adidas",
@@ -74,7 +74,7 @@ const product = {
   otherPictures: ["picture1.jpg", "picture2.jpg", "picture3.jpg"]
 };
 
-console.log(product);
+ console.log(product);
 console.log(product["name"]);
 
 const productArray = [
@@ -86,29 +86,29 @@ const productArray = [
   "http://shoe.jpg",
 ];
 
-console.log("product name is", productArray[1]);
+ console.log("product name is", productArray[0]);
 
-// dot notation
+// // dot notation
 
 console.log(Math.floor(4.43));
-console.log(Math["floor"](4.43));
+ console.log(Math["floor"](4.43));
 
 
-console.log(console);
+ console.log(console);
 console["log"]("hey");
 
-/**
- * We have 2 ways of accessing values in an object
- * 
- * - square bracket notation
- *  - we write the name of the object followed by square brackets
- *  - inside the square brackets we write the name of a property as a string 
- *     (the name needs to be in quotes)
- * - dot notation
- *  - we write the name of the object followed by a dot
- *  - after the dot we can just write the name of the property as it is, without
- *   quotes or anything else
- */
+// /**
+//  * We have 2 ways of accessing values in an object
+//  * 
+//  * - square bracket notation
+//  *  - we write the name of the object followed by square brackets
+//  *  - inside the square brackets we write the name of a property as a string 
+//  *     (the name needs to be in quotes)
+//  * - dot notation
+//  *  - we write the name of the object followed by a dot
+//  *  - after the dot we can just write the name of the property as it is, without
+//  *   quotes or anything else
+//  */
 
 
 
@@ -121,14 +121,14 @@ let person3 = {
     }
 }
 
-// print the firstName using the dot notation
-console.log(person3.firstName);
+// // print the firstName using the dot notation
+ console.log(person3.firstName);
 
-// print the street to the console
-console.log(person3.address.city);
-console.log(person3.address.street);
-console.log(person3.address.street[0]);
-console.log(person3.country);
+// // print the street to the console
+// console.log(person3.address.city);
+// console.log(person3.address.street);
+// console.log(person3.address.street[0]);
+// console.log(person3.country);
 
 
 
