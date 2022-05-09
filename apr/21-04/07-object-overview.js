@@ -24,6 +24,9 @@ console.log(person);
 person["lastName"] = "Windsor";
 console.log(person);
 
-person.introduce = () => `My name is ${person.firstName}`;
+// person.introduce = () => `My name is ${person.firstName}`;
 
+// console.log(person.introduce());
+
+person.introduce=()=> `My name is ${person.firstName}`;
 console.log(person.introduce());
