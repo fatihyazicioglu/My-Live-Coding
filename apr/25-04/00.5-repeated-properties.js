@@ -6,7 +6,10 @@ const person = {
   cats: 28,
 };
 
-console.log(person);
-console.log(person.name);
+// console.log(person);
+// console.log(person.name);
 
 
+for (let a in person){
+  console.log(person);
+}
