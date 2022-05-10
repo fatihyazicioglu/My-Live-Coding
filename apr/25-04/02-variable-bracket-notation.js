@@ -16,15 +16,14 @@ const person = {
 };
 
 console.log("dot notation:", person.firstName);
-console.log("bracket notation with string:", person[`firstName`]);
+ console.log("bracket notation with string:", person[`firstName`]);
 
-let key = 'firstName';
+ let key = 'firstName';
 console.log("bracket notation with string concatenation:", person["first" + "Name"]);
-console.log("full name:", `${person["firstName"]} ${person["lastName"]}`);
-
+ console.log("full name:", `${person["firstName"]} ${person["lastName"]}`);
 console.log("bracket notation with variable:", person[key]);
 
-// doesn't work
+// // doesn't work
 console.log("dot notation with variable:", person.key);
 
 const products = [
@@ -83,16 +82,28 @@ const products = [
  */
 
 
-function productValuesByKey(array, key) {
-    const result = [];
-    for (let i = 0; i < array.length; i++) {
-        result.push(array[i][key]);
-        // result.push(array["type"]);
-    }
-    return result;
+// function productValuesByKey(array, key) {
+//     const result = [];
+//     for (let i = 0; i < array.length; i++) {
+//         result.push(array[i][key]);
+//         // result.push(array["type"]);
+//     }
+//     return result;
+// }
+
+
+// console.log(productValuesByKey(products, "type"));
+// console.log(productValuesByKey(products, "price"));
+// console.log(productValuesByKey(products, "color"));
+
+
+function values (array,key){
+  const result =[];
+  for (let i =0; i<array.length;i++){
+    result.push(array[i][key]);
+  }
+  return result
 }
 
-
-console.log(productValuesByKey(products, "type"));
-console.log(productValuesByKey(products, "price"));
-console.log(productValuesByKey(products, "color"));
+console.log(values(products, "type"));
+ console.log(values(products, "color"));
