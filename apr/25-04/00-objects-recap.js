@@ -42,3 +42,12 @@ for (let i = 0; i < product.availableSizes.length; i++) {
 for (let i = 0; i < product.pictures.extraPictures.length; i++) {
   console.log("- " + product.pictures.extraPictures[i]);
 }
+
+console.log("\ngfes \nsefsf\n" );
+
+for (let i = 0; i < product.pictures.extraPictures.length; i++) {
+  console.log("-"+ product.pictures.extraPictures[i]);;
+  
+}
+
+
