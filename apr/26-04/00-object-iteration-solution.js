@@ -64,17 +64,17 @@ const cartTotal =(array)=>{
 
 console.log("total", cartTotal(cart));
 
-// const totalByType = (array, productType) => {
-//   let result = 0;
-//   for (const item of array) {
-//     if (item.type === productType) {
-//       result += item.price;
-//     }
-//   }
-//   return result;
-// };
+const totalByType = (array, productType) => {
+  let result = 0;
+  for (const item of array) {
+    if (item.type === productType) {
+      result += item.price;
+    }
+  }
+  return result;
+};
 
-// console.log("t-shirt total", totalByType(cart, "t-shirt"));
+console.log("t-shirt total", totalByType(cart, "t-shirt"));
 // console.log("jacket total", totalByType(cart, "jacket"));
 // console.log("sunglasses total", totalByType(cart, "sunglasses"));
 
