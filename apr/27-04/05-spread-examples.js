@@ -9,14 +9,14 @@ function stringsToUppercase(strings) {
     return result;
 }
 
-let myStrings = ["table", "pen", "laptop", "pencil"];
+ let myStrings = ["table", "pen", "laptop", "pencil"];
 
-let uppercaseStrings = stringsToUppercase(myStrings);
-console.log(uppercaseStrings);
-console.log(myStrings);
+ let uppercaseStrings = stringsToUppercase(myStrings);
+ console.log(uppercaseStrings);
+ console.log(myStrings);
 
-// create a function that takes an array of strings and adds an index before each string
-// ["a", "b", "c"] => ["0 a", "1 b", "2 c"]
+// // create a function that takes an array of strings and adds an index before each string
+// // ["a", "b", "c"] => ["0 a", "1 b", "2 c"]
 
 function addIndexToElements(strings) {
     let stringsCopy = [...strings];
@@ -26,6 +26,6 @@ function addIndexToElements(strings) {
     return stringsCopy;
 }
 
-let stringsWithIndex = addIndexToElements(myStrings);
-console.log(stringsWithIndex);
-console.log("myStrings", myStrings);
+ let stringsWithIndex = addIndexToElements(myStrings);
+ console.log(stringsWithIndex);
+ console.log("myStrings", myStrings);
