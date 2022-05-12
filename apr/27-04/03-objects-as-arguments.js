@@ -5,30 +5,34 @@ function appendToArray(array, newItem) {
 
 let a = [1, 2, 3];
 
-let newArray = appendToArray(a, 99);
+ let newArray = appendToArray(a, 99);
 
-console.log("newArray", newArray); // [1, 2, 3, 99]
-console.log("a", a); // [1, 2, 3, 99]
+ console.log("newArray", newArray); // [1, 2, 3, 99]
+ console.log("a", a); // [1, 2, 3, 99]
 
-function appendToNewEmptyArray(newItem) {
-  let newArray = [];
+ function appendToNewEmptyArray(newItem) {
+   let newArray = [];
+   newArray.push(newItem);
+   return newArray;
+ }
+
+function appendToNewEmptyArray1(newItem){
+  let newArray =[];
   newArray.push(newItem);
   return newArray;
 }
 
 
-
-
 let b = ["x", "y", "z"];
 
-let bCopy = [];
+ let bCopy = [];
 
-for (let item of b) {
-  bCopy.push(item);
-}
+ for (let item of b) {
+   bCopy.push(item);
+ }
 
-console.log("b", b); // ["x", "y", "z"]
-console.log("bCopy", bCopy); // ["x", "y", "z"]
+ console.log("b", b); // ["x", "y", "z"]
+ console.log("bCopy", bCopy); // ["x", "y", "z"]
 console.log("b === bCopy", b === bCopy); // false
 
 
@@ -45,26 +49,26 @@ function copyAndAppendToArray(array, newItem) {
   return arrayCopy;
 }
 
-let newArray2 = copyAndAppendToArray(b, "bla");
+ let newArray2 = copyAndAppendToArray(b, "bla");
 
-console.log("b", b);
-console.log("newArray2", newArray2);
-console.log("b === newArray2", b === newArray2);
+ console.log("b", b);
+ console.log("newArray2", newArray2);
+ console.log("b === newArray2", b === newArray2);
 
 
 
-let letters = ["a", "b", "c"]
+ let letters = ["a", "b", "c"]
 
-function changesFirstItem(array) {
-    let arrayCopy = [];
-    for (let entry of array) {
-        arrayCopy.push(entry);
-    }
-    arrayCopy[0] = "bla";
-    return arrayCopy;
-}
+//  function changesFirstItem(array) {
+// //     let arrayCopy = [];
+// //     for (let entry of array) {
+// //         arrayCopy.push(entry);
+// //     }
+// //     arrayCopy[0] = "bla";
+// //     return arrayCopy;
+// // }
 
-let modifiedLetters = changesFirstItem(letters)
+// let modifiedLetters = changesFirstItem(letters)
 
-console.log("letters", letters);
-console.log("modifiedLetters", modifiedLetters);
+// console.log("letters", letters);
+// console.log("modifiedLetters", modifiedLetters);
