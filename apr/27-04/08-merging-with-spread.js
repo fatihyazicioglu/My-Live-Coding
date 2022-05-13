@@ -3,7 +3,7 @@ let array2 = [4, 5, 6];
 
 let mergedArray = [...array1, ...array2];
 
-console.log(mergedArray);
+ console.log(mergedArray);
 
 let person = {
   name: "Tim",
@@ -16,6 +16,6 @@ let address = {
   city: "Berlin",
 };
 
-let personWithAdress = { ...person, ...address };
+ let personWithAdress = { ...person,...address };
 
-console.log(personWithAdress)
+ console.log(personWithAdress)
