@@ -16,11 +16,11 @@ let box2 = {
   volume: volume,
 };
 
-// box1.volume = volume;
-// box2.volume = volume;
+box1.volume = volume;
+box2.volume = volume;
 
-console.log(box1);
-console.log(box1.volume());
-console.log(box2.volume());
+ console.log(box1);
+ console.log(box1.volume());
+ console.log(box2.volume());
 
-console.log(box1.volume === box2.volume); // true
+ console.log(box1.volume === box2.volume); // true
