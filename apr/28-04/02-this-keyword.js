@@ -18,25 +18,26 @@ function printName() {
     return `Hello, my name is ${this.firstName}`;
 }
 
-person1.printName = printName;
+ person1.printName = printName;
+ console.log(person1);
 
 
-console.log(person1);
-console.log("person1.showName()", person1.printName());
+ console.log(person1);
+ console.log("person1.showName()", person1.printName());
 
-person2.showName = printName;
-person2.showName2 = printName;
-person2.displayName = printName;
-person2.sayName = printName;
-console.log("person2.showName()", person2.showName());
-console.log(person2.showName2());
-console.log(person2.displayName());
-console.log(person2.sayName());
-console.log(person2);
-// person1.printName();
+ person2.showName = printName;
+ person2.showName2 = printName;
+ person2.displayName = printName;
+ person2.sayName = printName;
+ console.log("person2.showName()", person2.showName());
+ console.log(person2.showName2());
+ console.log(person2.displayName());
+ console.log(person2.sayName());
+ console.log(person2);
+ person1.printName();
 
-console.log(person1.print());
-console.log(person2.print());
+ console.log(person1.print());
+ console.log(person2.print());
 
 
 
@@ -48,4 +49,4 @@ let functions = [
     (string) => string[0], 
 ];
 
-console.log(functions[0](2, 3));
+console.log(functions[4]("i go to the school"));
