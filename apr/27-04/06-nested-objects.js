@@ -18,7 +18,7 @@ Create a function that goes through an array of people and adds a new property w
 of each person:
 
   {
-    firstName: "Julie",
+    firstName: "Julie", 
     lastName: "White",
   }
 
@@ -42,7 +42,7 @@ function addInitials(array) {
     return arrayCopy;
 }
 
-let modifiedPeople = addInitials(people);
+// let modifiedPeople = addInitials(people);
 
-console.log("modifiedPeople", modifiedPeople);
-console.log("people", people);
+// console.log("modifiedPeople", modifiedPeople);
+// console.log("people", people);
