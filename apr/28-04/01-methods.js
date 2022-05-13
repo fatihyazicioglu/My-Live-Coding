@@ -46,7 +46,7 @@ console.log(person1.sayAge());
 console.log(person2.print());
 
 function introducePerson(object) {
-  return `My name is ${object.firstName} (function version)`;
+  return `My name is ${object.firstName} `;
 }
 
  console.log(introducePerson(person1));
