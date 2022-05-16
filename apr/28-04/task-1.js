@@ -17,26 +17,26 @@ for (let i = 0; i < firstNames.length; i++) {
     people.push(person);
 }
 
+//console.log(people);
+
+
+
+
+
+
+
+
+
+for (let i = 0; i < firstNames.length; i++) {
+    // let person = {};
+    // person.firstName = firstNames[i];
+    // person.lastName = lastNames[i];
+    let person = {
+        firstName: firstNames[i],
+        lastName: lastNames[i],
+    }
+//   console.log(firstNames[i], lastNames[i], ages[i], cities[i]);
+    people.push(person);
+}
+
 console.log(people);
-
-
-
-
-
-
-
-
-
-// for (let i = 0; i < firstNames.length; i++) {
-//     // let person = {};
-//     // person.firstName = firstNames[i];
-//     // person.lastName = lastNames[i];
-//     let person = {
-//         firstName: firstNames[i],
-//         lastName: lastNames[i],
-//     }
-// //   console.log(firstNames[i], lastNames[i], ages[i], cities[i]);
-//     people.push(person);
-// }
-
-// console.log(people);

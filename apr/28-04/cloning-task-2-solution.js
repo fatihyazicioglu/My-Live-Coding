@@ -17,5 +17,5 @@ const finishTask = (tasks) => {
     
 };
 
-console.log(finishTask(tasks));
-console.log(tasks);
+ console.log(finishTask(tasks));
+ console.log(tasks);
