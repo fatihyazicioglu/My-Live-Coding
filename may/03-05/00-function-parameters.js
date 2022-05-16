@@ -28,8 +28,8 @@ function quintuple(n) {
     return result;
 }
 console.log(addNumbers(2, 3));
-console.log(addNumbers(10, 20));
-console.log(addNumbers(1000, 837));
+ console.log(addNumbers(10, 20));
+ console.log(addNumbers(1000, 837));
 
 function multiply(a, b) {
     let result = a * b;
@@ -59,9 +59,9 @@ function exponent(a, b) {
     return result;
 }
 
-// function calculate(a, b, operator) {
-//     let result = 
-// }
+function calculate(a, b, operator) {
+    let result  
+}
 console.log(multiply(2, 3))
 console.log(multiply(100, 64))
 console.log(multiply(91, 5))
