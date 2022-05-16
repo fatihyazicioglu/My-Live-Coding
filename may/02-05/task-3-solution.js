@@ -26,12 +26,13 @@ function attack(opponent) {
   );
 }
 
-character1.attack = attack;
-character2.attack = attack;
+//character1.attack = attack;
+//character2.attack = attack;
 
-character1.attack(character2);
-character2.attack(character1);
+//character1.attack(character2);
+//character2.attack(character1);
 
+console.log(attack(character2));
 // let a = 8;
 
 // // a = a - 2; // 6
