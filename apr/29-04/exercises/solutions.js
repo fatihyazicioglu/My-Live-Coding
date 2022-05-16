@@ -9,8 +9,7 @@ function addItem(item, array) {
 }
 
 console.log(addItem('apples', fruits))
-
-// 02
+02
 console.log('------------02--------------')
 const recipe = {
     "idMeal": "52818",
@@ -68,7 +67,7 @@ const recipe = {
       "dateModified": null
 }
 
-// a)
+//a)
 function getIngredients(object) {
 
     const ingredients = [] // create an array that will hold the ingredients
@@ -107,7 +106,7 @@ function getQuantities(object) {
 }
 console.log(getQuantities(recipe))
 
-// c)
+// // c)
 function printRecipe(ingredients, quantities) {
 
     for (let i = 0; i < ingredients.length; i++) {
@@ -117,7 +116,7 @@ function printRecipe(ingredients, quantities) {
 
 printRecipe(getIngredients(recipe), getQuantities(recipe))
 
-// 03
+// // 03
 console.log('------------03--------------')
 const user = {
     username: 'Kane',
@@ -144,7 +143,7 @@ function mergeObjects(targetObject, ...sourceObjects) {
 
 console.log(mergeObjects(user, userAddress, favorites))
 
-// 04
+// // 04
 console.log('------------04--------------')
 const products = [
     {
@@ -224,7 +223,7 @@ const wishlist = [
     }
 ];
 
-// a)
+// // a)
 function updateWishlist(userid, productid) {
 
     // 1. find the index for the user in wishlist

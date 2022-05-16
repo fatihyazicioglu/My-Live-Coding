@@ -13,7 +13,7 @@ for (let i = 0; i < 10; i++) {
     console.log(this)
 }
 
-console.log('this in a file is:', this)
+ console.log('this in a file is:', this)
 
 const user = {
     name: 'george',
@@ -43,11 +43,11 @@ for ( let key in array) {
 for ( let key in user) {
     console.log('key is with IN with OBJECT', key)
 }
-const arrayObjects = [{type:'chicken'}, {type: 'fish'}, {type: 'cat'}]
+ const arrayObjects = [{type:'chicken'}, {type: 'fish'}, {type: 'cat'}]
 
-console.clear()
-console.log('---------------------------')
-for (let item of arrayObjects) { // print each item of the array
+ //console.clear()
+ console.log('---------------------------')
+ for (let item of arrayObjects) { // print each item of the array
     // console.log('each item in an array is', idx)
 
     for (let key in item) { // item is an object from the array
