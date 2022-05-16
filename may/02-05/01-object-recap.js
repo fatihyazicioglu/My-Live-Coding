@@ -6,35 +6,37 @@ const animal1 = {
   age: 3,
   color: "orange",
   toys: ["rubber ball", "rope"],
-//   listToys: function () {
-//     console.log("\nMaya's toys are:\n");
-//     for (let toy of animal1.toys) {
-//       console.log(toy);
-//     }
-//   },
+  listToys: function () {
+    console.log("\nMaya's toys are:\n");
+    for (let toy of animal1.toys) {
+      console.log(toy);
+    }
+  },
   talk() {
     console.log("meow");
   },
   // option 1 of adding a property with a method
   //   listToys: listToys
 };
-
+console.log(animal1.listToys());
+console.log(animal1.talk());
 const animal2 = {
   type: "dog",
   name: "rufus",
   age: 5,
   color: "white",
   toys: ["rubber bone", "red ball"],
-//   listToys: function () {
-//     console.log("\nRufus' toys are:\n");
-//     for (let toy of animal2.toys) {
-//       console.log(toy);
-//     }
-//   },
+  listToys: function () {
+    console.log("\nRufus' toys are:\n");
+    for (let toy of animal2.toys) {
+      console.log(toy);
+    }
+  },
   talk() {
     console.log("woof");
   },
 };
+console.log(animal2.listToys());
 
 function listToys() {
   console.log(`\n${this.name}'s toys are:\n`);
@@ -42,6 +44,7 @@ function listToys() {
     console.log(toy);
   }
 }
+
 
 // let's connect the function listToys to the 2 objects
 // after this, the property listToys will be a method for the 2 objects
@@ -62,42 +65,42 @@ animal2.listToys();
 // console.log("Name of the cat is:", animal1.name);
 // console.log("Name of the cat is:", animal1["name"]);
 
-// const propertyName = "age";
+ const propertyName = "age";
 
-// console.log(
-//   `The ${propertyName} of the ${animal1.type} called ${animal1.name} is ${animal1[propertyName]}`
-// );
-// console.log(
-//   `The ${propertyName} of the ${animal2.type} called ${animal2.name} is ${animal2[propertyName]}`
-// );
+console.log(
+  `The ${propertyName} of the ${animal1.type} called ${animal1.name} is ${animal1[propertyName]}`
+);
+console.log(
+  `The ${propertyName} of the ${animal2.type} called ${animal2.name} is ${animal2[propertyName]}`
+);
 
-// console.log(`The first toy of ${animal1.name} is a ${animal1.toys[0]}`);
-// console.log(`The first toy of ${animal2.name} is a ${animal2.toys[0]}`);
+ console.log(`The first toy of ${animal1.name} is a ${animal1.toys[0]}`);
+ console.log(`The first toy of ${animal2.name} is a ${animal2.toys[0]}`);
 
-// // list all maya's toys
-// console.log("\nMaya's toys are:\n");
-// for (let toy of animal1.toys) {
-//   console.log(toy);
-// }
+// list all maya's toys
+console.log("\nMaya's toys are:\n");
+for (let toy of animal1.toys) {
+  console.log(toy);
+}
 
-// console.log("\nRufus' toys are:\n");
-// for (let toy of animal2.toys) {
-//   console.log(toy);
-// }
+console.log("\nRufus' toys are:\n");
+for (let toy of animal2.toys) {
+  console.log(toy);
+}
 
-// animal1.listToys();
-// animal2.listToys();
+animal1.listToys();
+animal2.listToys();
 
-// const box = {
-//   height: 4,
-//   length: 5,
-//   width: 5,
-//   color: "brown",
-// };
+const box = {
+  height: 4,
+  length: 5,
+  width: 5,
+  color: "brown",
+};
 
-// // box["age"];
+box["age"];
 
-// // box[propertyName] = 18;
-// // box["age"] = 18;
-// // console.log(box);
-// // console.log(`The ${propertyName} of the box is ${box[propertyName]}`);
+box[propertyName] = 18;
+box["age"] = 18;
+//console.log(box);
+console.log(`The ${propertyName} of the box is ${box[propertyName]}`);
