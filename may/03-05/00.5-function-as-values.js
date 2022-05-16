@@ -3,7 +3,7 @@ function add(a, b) {
     return result;
 }
 
-let f = add;
+ let f = add;
 
 console.log("add", add);
 console.log("f", f);
@@ -13,17 +13,17 @@ function printParameterValue(x) { // x = add
     console.log("The parameter value is:", x);
 }
 
-let y = 8;
-printParameterValue(2);
-printParameterValue(2 * 6); // printParameterValue(12)
-printParameterValue(y);
-printParameterValue(2 < 8);
-printParameterValue(add(2, 3)); // printParameterValue(5)
-printParameterValue(5);
-printParameterValue(add);
+ let y = 8;
+ printParameterValue(2);
+ printParameterValue(2 * 6); // printParameterValue(12)
+ printParameterValue(y);
+ printParameterValue(2 < 8);
+ printParameterValue(add(2, 3)); // printParameterValue(5)
+ printParameterValue(5);
+ printParameterValue(add);
 
-let result = add(2, 3);
-let f2 = add;
+ let result = add(2, 3);
+ let f2 = add;
 
 
 
