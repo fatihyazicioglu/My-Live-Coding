@@ -8,11 +8,11 @@
 
 let a = [1, 2, 3];
 let b = { bla: "bla", asd: "asd" };
-console.log(typeof a);
+ console.log(typeof a);
 
-console.log(Array);
-console.log(Array.isArray(a)); // true
-console.log(Array.isArray(b)); // false
+ console.log(Array);
+ console.log(Array.isArray(a)); // true
+ console.log(Array.isArray(b)); // false
 
 function myIsArray(item) {
   if (item.length === undefined) {
@@ -22,9 +22,9 @@ function myIsArray(item) {
   }
 }
 
-myIsArray(a);
-myIsArray(b);
-
+ myIsArray(a);
+ myIsArray(b);
+console.log(a);
 
 // let Array = {
 //     isArray: function() {},
