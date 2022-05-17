@@ -6,6 +6,6 @@ function double(n, index, array) {
 }
 
 console.log("forEach", numbers.forEach(double));
-// console.log("map", numbers.map(double));
+ console.log("map", numbers.map(double));
 
 console.log("doubleNumbers", doubleNumbers);
