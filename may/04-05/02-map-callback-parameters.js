@@ -15,4 +15,4 @@ const addNumber = (currentItem, i, arr) => {
     return result;
 }
 
-console.log(food.map(addNumber));
+ console.log(food.map(addNumber));

@@ -11,8 +11,8 @@ function double(n) {
   return n * 2;
 }
 
-console.log(double(2));
-console.log(double(3));
+//console.log(double(2));
+//console.log(double(3));
 
 function doubleNumbers(numbers) {
   const result = [];
@@ -36,11 +36,11 @@ function squareNumbers(numbers) {
   }
   return result;
 }
-console.log(doubleNumbers([1, 2, 3]));
-console.log(doubleNumbers([9, 1, 8]));
-console.log(tripleNumbers([1, 2, 3]));
-console.log(squareNumbers([1, 2, 3]));
-console.log(squareNumbers([2, 4, 5]));
+//console.log(doubleNumbers([1, 2, 3]));
+//console.log(doubleNumbers([9, 1, 8]));
+//console.log(tripleNumbers([1, 2, 3]));
+//console.log(squareNumbers([1, 2, 3]));
+//console.log(squareNumbers([2, 4, 5]));
 
 function square(n) {
   return n ** 2;
@@ -62,8 +62,8 @@ function myMap(array, callback) {
   return result;
 }
 
-console.log(myMap([1, 2, 3], triple));
-console.log(myMap([1, 2, 3], square));
+//console.log(myMap([1, 2, 3], triple));
+//console.log(myMap([1, 2, 3], square));
 console.log(
   myMap(["table", "chair", "mouse", "bottle", "books"], cutStringInHalf)
 );
@@ -90,7 +90,7 @@ const capitalisedPeople = myMap(people, capitaliseNames);
 
 // create a function that takes an object with a person and returns a string with the fullName
 function getFullName(person) {
-    return person.firstName + " " + person.lastName;
+    return person.firstName +  " "+ person.lastName;
 }
 
 console.log(myMap(capitalisedPeople, getFullName))
