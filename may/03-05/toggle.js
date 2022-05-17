@@ -33,12 +33,17 @@ function toggleFavourite(songs, index) {
 
 toggleFavourite(songs, 1);
 
-console.log(songs);
+ console.log(songs);
 
-toggleFavourite(songs, 1);
-
-console.log(songs);
-
-toggleFavourite(songs, 0);
+ toggleFavourite(songs, 1);
 
 console.log(songs);
+
+ toggleFavourite(songs, 0);
+
+ console.log(songs);
+ toggleFavourite(songs, 2);
+ console.log(songs);
+
+
+
