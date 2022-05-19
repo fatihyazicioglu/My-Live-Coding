@@ -13,6 +13,14 @@ let result = arrayString.reduce(firstLetters, "");
 
 console.log(result);
 
+function firstLetters1 (result1,current ){
+  const currentFirstLetter1 = current[0].toUpperCase();
+  result1 += currentFirstLetter1;
+  return result1
+}
+let result1 = arrayString.reduce(firstLetters,"");
+console.log(result1);
+
 const products = [
   {
     type: "phone",

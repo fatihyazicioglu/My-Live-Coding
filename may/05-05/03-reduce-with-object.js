@@ -21,14 +21,14 @@ const products = [
  * }
  */
 
-// let obj = {};
+let obj = {};
 
-// obj["t-shirt"] = 1;
-// obj["jeans"] = 2;
+obj["t-shirt"] = 1;
+obj["jeans"] = 2;
 
-// let currentValue = "t-shirt";
+let currentValue = "t-shirt";
 
-// obj[currentValue] = 1;
+obj[currentValue] = 1;
 
 function countProducts(previousValue, currentValue) {
   previousValue[currentValue] =
