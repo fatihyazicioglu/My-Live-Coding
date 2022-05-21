@@ -33,14 +33,14 @@ class Animal {
 }
 
 // to create an instance of an Animal, I have to use the `new` keyword
-const animal1 = new Animal("cat", "Julius", "orange");
-console.log(animal1);
-animal1.sleep().eat("fish");
+ const animal1 = new Animal("cat", "Julius", "orange");
+ console.log(animal1);
+ animal1.sleep().eat("fish");
 
-const animal2 = new Animal("dog", "Bob", "white");
-const animal3 = new Animal("giraffe", "", "orange");
+ const animal2 = new Animal("dog", "Bob", "white");
+ const animal3 = new Animal("giraffe", "", "orange");
 const animal4 = new Animal("fish", "", "orange");
-const animal5 = new Animal("bird", "", "orange");
+ const animal5 = new Animal("bird", "", "orange");
 
 class AnimalsGroup {
     constructor(type) {
@@ -52,16 +52,16 @@ class AnimalsGroup {
     }
 }
 
-const pets = new AnimalsGroup("pet");
-const wildAnimals = new AnimalsGroup("wild animals");
+ const pets = new AnimalsGroup("pet");
+ const wildAnimals = new AnimalsGroup("wild animals");
 
-pets.addAnimal(animal1);
-pets.addAnimal(animal2);
-pets.addAnimal(animal4);
-pets.addAnimal(animal5);
+ pets.addAnimal(animal1);
+ pets.addAnimal(animal2);
+ pets.addAnimal(animal4);
+ pets.addAnimal(animal5);
 
-wildAnimals.addAnimal(animal3);
+ wildAnimals.addAnimal(animal3);
 
 
-console.log(pets);
-console.log(wildAnimals);
+ console.log(pets);
+ console.log(wildAnimals);
