@@ -1,23 +1,23 @@
-let words = ["table", "chair", "mouse", "water", "webcam", "bottle", "laptop"];
+ let words = ["table", "chair", "mouse", "water", "webcam", "bottle", "laptop"];
 
-console.log([...words].sort());
+ console.log([...words].sort());
 
-let words2 = ["table", "Chair", "Mouse", "Water", "webcam", "bottle", "laptop"];
+ let words2 = ["table", "Chair", "Mouse", "Water", "webcam", "bottle", "laptop"];
 
-console.log(
-  [...words2].sort((a, b) => {
-    let lowerCaseA = a.toLowerCase();
-    let lowerCaseB = b.toLowerCase();
+ console.log(
+   [...words2].sort((b,a) => {
+     let lowerCaseA = a.toLowerCase();
+     let lowerCaseB = b.toLowerCase();
 
-    if (lowerCaseB < lowerCaseA) {
-      return 1;
+     if (lowerCaseB < lowerCaseA) {
+       return 1;
     } else if (lowerCaseB > lowerCaseA) {
-      return -1;
-    } else {
-      return 0;
-    }
-  })
-);
+       return -1;
+     } else {
+       return 0;
+     }
+   })
+ );
 
 console.log(
   [...words2].sort((a, b) => {
@@ -37,6 +37,8 @@ console.log(
   })
 );
 
-let numbers = [5, 7, 1, 4465, 2, 0];
+ let numbers = [5, 7, 1, 4465, 2, 0];
 
-console.log([...numbers].sort((a, b) => b - a));
+ console.log([...numbers].sort((a, b) => b - a));
+ console.log([...numbers].sort((a, b) => a-b));
+
