@@ -53,14 +53,16 @@ class Bird {
     console.log(`The ${this.type} ${this.name} is flying`);
   }
 }
-const animal1 = new Animal("cat", "Julius", "orange");
-const animal2 = new Animal("dog", "Bob", "white");
-const animal3 = new Animal("giraffe", "Martha", "orange");
-const animal4 = new Fish("fish", "Nemo", "orange");
-const animal5 = new Bird("bird", "Tweet", "orange");
+ const animal1 = new Animal("cat", "Julius", "orange");
+ const animal2 = new Animal("dog", "Bob", "white");
+ const animal3 = new Animal("giraffe", "Martha", "orange");
+ const animal4 = new Fish("fish", "Nemo", "orange");
+ const animal5 = new Bird("bird", "Tweet", "orange");
 
-animal1.walk();
-animal4.swim();
-animal5.fly();
+ animal1.walk();
+ animal4.swim();
+// animal5.fly();
 animal5.eat("worms");
 animal1.eat("fish");
+
+console.log(animal5);
