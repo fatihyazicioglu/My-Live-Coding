@@ -22,10 +22,10 @@ console.log(person1.introduce());
 console.log(person2.introduce());
 console.log(person3.introduce());
 
-person1.eat = function (food) {
-  console.log(`I'm eating some ${food}`);
-};
+ person1.eat = function (food) {
+   console.log(`I'm eating some ${food}`);
+ };
 
 
 person1.eat("pizza");
-person2.eat("cheese");
+person1.eat("cheese");
