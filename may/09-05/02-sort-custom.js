@@ -1,12 +1,12 @@
-// let array = [1, 0, 99]
+let array = [1, 0, 99]
 
-// if (array[0] > array[1]) {
-//     let temp = array[0];
-//     array[0] = array[1]
-//     array[1] = temp;
-// }
+if (array[0] > array[1]) {
+    let temp = array[0];
+    array[0] = array[1]
+    array[1] = temp;
+}
 
-// console.log(array)
+console.log(array)
 
 /**
  * sort()
@@ -14,7 +14,7 @@
  * > 0	sort b before a
  * < 0	sort a before b
  * === 0 keep original order of a and b
- */
+//  */
 
 let numbers = [2, -4, 10, 20, 3, 4, 5, 40, 41, 42, 6, 7, 8];
 
@@ -28,7 +28,7 @@ let sortedNumbers = numbers.sort((a, b) => {
   }
 });
 
-console.log("sorted", sortedNumbers);
+ console.log("sorted", sortedNumbers);
 
 let sortedNumbersReverse = numbers.sort((a, b) => {
   if (b < a) {

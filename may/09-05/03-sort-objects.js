@@ -21,7 +21,7 @@ let todos = [
   },
 ];
 
-// sort the array putting objects with highest priority first
+// // sort the array putting objects with highest priority first
 function priorityDescending(a, b) {
   if (a.priority > b.priority) {
     return -1;
@@ -32,8 +32,11 @@ function priorityDescending(a, b) {
   }
 }
 
-let sortedList = todos.sort(priorityDescending);
-console.log(sortedList);
+ let sortedList = todos.sort(priorityDescending);
+ console.log(sortedList);
 
-let sortedList2 = todos.sort((a, b) => b.priority - a.priority);
-console.log(sortedList2);
+ let sortedList2 = todos.sort((a, b) => b.priority - a.priority);
+ console.log(sortedList2);
+
+ let sortedList3 = todos.sort((a, b) => a.priority - b.priority);
+ console.log(sortedList3);

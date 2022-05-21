@@ -8,20 +8,20 @@ let sortedNumbers = numbers.sort();
 
 console.log(sortedNumbers);
 
-let moreNumbers = [2, -4, 10, 20, 3, 4, 5, 40, 41, 42, 6, 7, 8];
+ let moreNumbers = [2, -4, 10, 20, 3, 4, 5, 40, 41, 42, 6, 7, 8];
 
-let moreNumbersSorted = moreNumbers.sort();
+ let moreNumbersSorted = moreNumbers.sort();
 
-console.log(moreNumbersSorted);
+ console.log(moreNumbersSorted);
 
-let folders = ["100", "111", "20", "2", "0", "02", "03", "10", "11"];
+ let folders = ["100", "111", "20", "2", "0", "02", "03", "10", "11"];
 
-console.log(folders.sort());
+ console.log(folders.sort());
 
-let strings = ["zzz", "aaa", "abc", "a", "b"];
+ let strings = ["zzz", "aaa", "abc", "a", "b"];
 
-console.log(strings.sort());
+ console.log(strings.sort());
 
-let characters = ["a", "b", "c", 0, 1, 2, 3, "^", "Z", "Y", "A"];
+ let characters = ["a", "b", "c", 0, 1, 2, 3, "^", "Z", "Y", "A"];
 
-console.log(characters.sort())
+ console.log(characters.sort())
