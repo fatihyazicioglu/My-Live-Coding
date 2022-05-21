@@ -28,9 +28,21 @@ function containsNumber2(array) {
   return false;
 }
 
-let numbers = [9, 8, 7, 2, 1, 1, 1, 1, 1, 1, 1];
+function containsNumber1(array2){
+  for (let item of array2){
+    if (item[0] === 1) {
+      return true;
+    } 
+  }
+}
 
-console.log(containsNumber2(numbers));
+ let numbers = [9, 8, 7, 2, 1, 1, 1, 1, 1, 1, 1];
+
+ console.log(containsNumber2(numbers));
+ console.log(containsNumber1(numbers));
+ //console.log(containsNumber1(numbers));
+
+
 
 let result = false;
 for (let i = 0; i < numbers.length; i++) {
@@ -41,7 +53,7 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 
-console.log("does the array numbers contain 2?", result);
+ console.log("does the array numbers contain 2?", result);
 
 
 
@@ -50,3 +62,9 @@ let b = a++;
 
 console.log("a", a);
 console.log("b", b);
+// console.log(a);
+// console.log(b);
+// console.log(b);
+// console.log(b);
+// console.log(b);
+// console.log(a);
