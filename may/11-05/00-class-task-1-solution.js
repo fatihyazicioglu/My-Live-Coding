@@ -29,14 +29,15 @@ class Rectangle {
     }
 }
 
-const rectangle1 = new Rectangle(5, 4, "green");
+ const rectangle1 = new Rectangle(5, 4, "green");
 
-console.log(rectangle1.perimeter());
-console.log(rectangle1.area());
-console.log(rectangle1.description());
+ console.log(rectangle1.perimeter());
+ console.log(rectangle1.area());
+ console.log(rectangle1.description());
 
 const rectangle2 = new Rectangle(10, 6, "pink");
 
-console.log(rectangle2.perimeter());
-console.log(rectangle2.area());
-console.log(rectangle2.description());
+ console.log(rectangle2.perimeter());
+ console.log(rectangle2.area());
+ console.log(rectangle2.description());
+ //class
