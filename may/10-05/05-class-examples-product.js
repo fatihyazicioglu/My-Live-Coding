@@ -22,19 +22,19 @@ class Product {
   }
 }
 
-const product1 = new Product("jeans", "clothing", 40, "blue");
-const product2 = new Product("phone", "electronics", 140, "white");
-const product3 = new Product("keyboard", "electronics", 19, "black");
+ const product1 = new Product("jeans", "clothing", 40, "blue");
+ const product2 = new Product("phone", "electronics", 140, "white");
+ const product3 = new Product("keyboard", "electronics", 19, "black");
 
-console.log(product1);
-console.log(product2);
-console.log(product3);
+ //console.log(product1);
+ //console.log(product2);
+// console.log(product3);
 
-console.log(product1.printDescription());
+// console.log(product1.printDescription());
 
-for (let key in product1) {
-  console.log(key);
-}
+// for (let key in product1) {
+//   console.log(key);
+// }
 
 class Cart {
   constructor() {
@@ -61,38 +61,40 @@ class Cart {
   }
 }
 
-const myCart = new Cart();
-const myCart2 = new Cart();
-const myCart3 = new Cart();
+ const myCart = new Cart();
+ const myCart2 = new Cart();
+ const myCart3 = new Cart();
 
-myCart.add(product1);
-myCart.add(product2);
-myCart.add(product3);
-myCart.list();
-console.log(myCart.totalAmount());
+ myCart.add(product1);
+ myCart.add(product2);
+ myCart.add(product3);
+ myCart.list();
+ //console.log(myCart.totalAmount());
 
-console.log(myCart);
-myCart.removeByType("jeans");
+ console.log(myCart);
+ myCart.removeByType("jeans");
+ console.log(myCart);
 
-myCart.list();
-console.log(myCart.totalAmount());
-// class Calculator {
-//   add(...rest) {
-//     let total = 0;
-//     for (let n of rest) {
-//       total += n;
-//     }
-//     return total;
-//   }
-//   subtract(a, b) {
-//     return a - b;
-//   }
-// }
 
-// const myCalc = new Calculator();
+ myCart.list();
+ console.log(myCart.totalAmount());
+ class Calculator {
+  add(...rest) {
+    let total = 0;
+    for (let n of rest) {
+      total += n;
+    }
+    return total;
+  }
+  subtract(a, b) {
+    return a - b;
+  }
+}
 
-// console.log(myCalc.add(2, 3, 3, 4, 5));
+const myCalc = new Calculator();
 
-console.log(myCart);
-console.log(myCart2);
-console.log(myCart3);
+ console.log(myCalc.add(2, 3, 3, 4, 5));
+
+ console.log(myCart);
+ console.log(myCart2);
+ console.log(myCart3);
