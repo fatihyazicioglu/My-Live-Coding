@@ -33,22 +33,22 @@ Person.prototype.eat = function (food) {
   console.log(`I'm eating some ${food}`);
 };
 
-// console.log(person1);
-// console.log(person2);
-// console.log(person3);
+ console.log(person1);
+ console.log(person2);
+ console.log(person3);
 
-// person1.eat("pizza");
-// person2.eat("cheese");
-// person3.eat("fruit");
+ person1.eat("pizza");
+ person2.eat("cheese");
+ person3.eat("fruit");
 
-// let array = [1, 2, 3];
+ let array = [1, 2, 3];
 
-// console.log(array);
+ console.log(array);
 
-// Array.prototype.push = function () {
-//   console.log("I'm pushing");
-// };
+ Array.prototype.push = function () {
+   console.log("I'm pushing");
+ };
 
 
-// console.log(array.push());
-// console.log(array);
+ console.log(array.push());
+ console.log(array);
