@@ -10,7 +10,7 @@ console.log('---------------------------');
     console.log('Prev and current', prev, current)
 
     prev = prev + current
-    return prev
+    return current
 });
 
 const products = [
@@ -55,7 +55,7 @@ function findMin(prev, current) {
     }
 }
 
-console.log(numbers.reduce(findMin))
+ console.log(numbers.reduce(findMin))
 
 // 
 const duplicates = [1, 5, 6, 5, 7, 1, 6, 8, 9, 7]
@@ -72,4 +72,4 @@ function removeDuplicates(acc, item) {
 
 }
 
-console.log(duplicates.reduce(removeDuplicates, []))
+console.log(duplicates.reduce(removeDuplicates,[]))
