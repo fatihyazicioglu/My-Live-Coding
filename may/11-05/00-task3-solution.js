@@ -82,14 +82,14 @@ myPlaylist.add(song1);
 myPlaylist.add(song2);
 myPlaylist.add(song3);
 
-console.log(myPlaylist);
+ console.log(myPlaylist);
 
-myPlaylist.list();
-console.log("The total duration of the playlist is:", myPlaylist.duration());
-console.log(myPlaylist);
+ myPlaylist.list();
+ console.log("The total duration of the playlist is:", myPlaylist.duration());
+ console.log(myPlaylist);
 
 // Transofrm a duration string like "3:55" into seconds
-// "3:55" -> (3 * 60) + 55 -> 180 + 55 -> 235
+// // "3:55" -> (3 * 60) + 55 -> 180 + 55 -> 235
 
 // let duration = "3:55";
 // let splitDuration = duration.split(":");
@@ -97,7 +97,8 @@ console.log(myPlaylist);
 //  let seconds = parseInt(splitDuration[1]);
 // let durationInSeconds = (minutes * 60) + seconds;
 
-// same as above, but using array destructuring assignment
-let duration = "3:55";
-let [minutes, seconds] = duration.split(":");
-let durationInSeconds = parseInt(minutes) * 60 + parseInt(seconds);
+// // same as above, but using array destructuring assignment
+ let duration = "3:55";
+ let [minutes, seconds] = duration.split(":");
+ let durationInSeconds = parseInt(minutes) * 60 + parseInt(seconds);
+//
