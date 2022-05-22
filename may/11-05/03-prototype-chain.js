@@ -44,7 +44,6 @@ class ProUser extends RegisteredUser {
     super(username);
     this.customOutfit = customOutfit;
   }
-
 }
 
 class PremiumUser extends ProUser {
@@ -66,14 +65,14 @@ console.log(regularUser3);
 
 regularUser1.play();
 
-const registeredUser1 = new RegisteredUser("Sandy");
+ const registeredUser1 = new RegisteredUser("Sandy");
 
-console.log(registeredUser1);
-registeredUser1.play();
+ console.log(registeredUser1);
+ registeredUser1.play();
 
-const proUser1 = new ProUser("Max", "Golden Armor");
+ const proUser1 = new ProUser("Max", "Golden Armor");
 
-console.log(proUser1);
+ console.log(proUser1);
 proUser1.play();
 
 const specialSkill1 = {
@@ -86,17 +85,17 @@ premiumUser1.buySpecialSkill(specialSkill1);
 console.log(premiumUser1);
 premiumUser1.play();
 
-// instanceof
+// // instanceof
 
 
-console.log(typeof proUser1);
-console.log(typeof [1, 2, 3]);
-console.log("is proUser1 an instance of ProUser?", proUser1 instanceof ProUser);
-console.log("is [1, 2, 3] an instance of Array?", [1, 2, 3] instanceof Array);
+ console.log(typeof proUser1);
+ console.log(typeof [1, 2, 3]);
+ console.log("is proUser1 an instance of ProUser?", proUser1 instanceof ProUser);
+ console.log("is [1, 2, 3] an instance of Array?", [1, 2, 3] instanceof Array);
 
-console.log(Object.getPrototypeOf(proUser1));
-console.log(Object.getPrototypeOf(registeredUser1));
-console.log(Object.getPrototypeOf(regularUser1));
-console.log(Object.getPrototypeOf([1, 2, 3]));
-console.log(Object.getPrototypeOf(Object));
-console.log(Object.getPrototypeOf(Math));
+ console.log(Object.getPrototypeOf(proUser1));
+ console.log(Object.getPrototypeOf(registeredUser1));
+ console.log(Object.getPrototypeOf(regularUser1));
+ console.log(Object.getPrototypeOf([1, 2, 3]));
+ console.log(Object.getPrototypeOf(Object));
+ console.log(Object.getPrototypeOf(Math));
