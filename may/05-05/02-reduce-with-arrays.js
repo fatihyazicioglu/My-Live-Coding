@@ -23,3 +23,5 @@ function countEvenOdd(previousValue, currentValue) {
 let result = numbers.reduce(countEvenOdd, []);
 
 console.log(result);
+console.log(result);
+console.log(result);
