@@ -23,3 +23,4 @@ const person3 = {
 };
 
 console.log(person1);
+//
