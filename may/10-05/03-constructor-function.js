@@ -52,3 +52,5 @@ Person.prototype.eat = function (food) {
 
  console.log(array.push());
  console.log(array);
+ console.log(array.push());
+
