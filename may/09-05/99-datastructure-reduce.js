@@ -33,7 +33,7 @@ function concatenateInitials(prev, curr) {
   // return prev + curr[0].toUpperCase();
   return prev + curr.slice(0, 1).toUpperCase();
 }
-
+                                 
 let initials = string.split(" ").reduce(concatenateInitials, "");
 console.log(initials);
 

@@ -31,16 +31,16 @@ let tracklistWithSeconds = album.tracklist.map((track) => {
 console.log("The tracklist after adding the durationInSeconds:");
 console.log(tracklistWithSeconds);
 
-// 2. sort the tracks in descending order, from the one with longer duration the shortest one
+// // 2. sort the tracks in descending order, from the one with longer duration the shortest one
 
 let sortedTracklist = [...tracklistWithSeconds].sort(
   (a, b) => b.durationInSeconds - a.durationInSeconds
 );
 
-console.log("\n\nThe sorted tracklist:");
-console.log(sortedTracklist);
+ console.log("\n\nThe sorted tracklist:");
+ console.log(sortedTracklist);
 
-// 3. add a new property "durationInSeconds" to the main "album" object adding the total duration of the album in seconds
+// // 3. add a new property "durationInSeconds" to the main "album" object adding the total duration of the album in seconds
 
 let albumDurationInSeconds = tracklistWithSeconds.reduce(
   (total, currentTrack) => {
@@ -49,10 +49,10 @@ let albumDurationInSeconds = tracklistWithSeconds.reduce(
   0
 );
 
-console.log("\n\nThe duration of the album in seconds:");
-console.log(albumDurationInSeconds);
+ console.log("\n\nThe duration of the album in seconds:");
+ console.log(albumDurationInSeconds);
 
-// 4. add a new property "duration" to the main "album" object with the duration represented as a string. Example: duration: "35:53"
+ // 4. add a new property "duration" to the main "album" object with the duration represented as a string. Example: duration: "35:53"
 
 // 1500 seconds => "25:00"
 // Math.floor(1500 / 60), to get the minutes
