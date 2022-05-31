@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-	<title>JavaScript DOM</title>
+	<!-- <link href="styles.css" rel="stylesheet" /> -->
+
+    <title>JavaScript DOM</title>
 </head>
 <body>
-    
+ 
+	<div class="a3">
+		<form id="add-movie" class="test">
+			<input type="text" placeholder="Add a movie..." />
+			<button>Add</button>
+		</form>
+
+	</div>
+
 	<div id="wrapper">
 	    <header>
 	    	<div id="page-banner">
@@ -19,9 +28,9 @@
           </form>
 	    	</div>
 	    </header>
-	    <div id="movie-list">
+	    <div id="movie-list" >
 	    	<h2 class="title">According to IMDb:</h2>
-	    	<ul>
+	    	<ul id="abc">
 	    		<li>
 	    			<span class="name">1. The Shawshank Redemption (1994)</span>
 	    			<span class="delete">delete</span>
@@ -40,15 +49,38 @@
 	    		</li>
 	    	</ul>
 	    </div>
-	    <form id="add-movie">
+
+		<div class="a1">
+			 <form id="add-movie" class="test">
 	    	<input type="text" placeholder="Add a movie..." />
 	    	<button>Add</button>
 	    </form>
+		</div>
+	   
+
+		<div class="a2">
+			<form id="add-movie" class="test">
+				<input type="text" placeholder="Add a movie..." />
+				<button>Add</button>
+			</form>
+	
+		</div>
+
+
+		<div class="a3">
+			<form id="add-movie" class="test">
+				<input type="text" placeholder="Add a movie..." />
+				<button>Add</button>
+			</form>
+
+		</div>
+	
+	
 
 	</div>
 	
 	<!-- ADD JS -->
-	<script src="./app.js"></script>
+	<script src="app.js"></script>
 	
 
 
