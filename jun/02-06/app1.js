@@ -2,18 +2,18 @@ document.write ("<div>this is js div </div>");
 document.write("<div> </div>")
 
 //step a
-const newElement = document.createElement("h1");
+const newElement1 = document.createElement("h1");
 
 //step b
-const nodeText = document.createTextNode("Welcome to my page-TO DO LIST");
+const nodeText1 = document.createTextNode("1Welcome to my page-TO DO LIST");
 
 //step c
-newElement.appendChild(nodeText);
-document.body.appendChild(newElement);
+newElement1.appendChild(nodeText1);
+document.body.appendChild(newElement1);
 //console.log(newElement);
 
-const arr = [];
-const addToList = (e)=>{
+//const arr1 = [];
+const addToList1 = (e)=>{
     e.preventDefault();
     console.log(e);
 }
