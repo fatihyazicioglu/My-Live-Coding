@@ -1,6 +1,6 @@
 /**
  * 01 easy - Print the bigger number
- * Write a function that compares two integers and prints to the console the larger
+ * Write a  a function that compares two integers and prints to the console the larger
  */
 
 /**
