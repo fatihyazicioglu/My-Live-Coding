@@ -15,7 +15,7 @@ const product = {
   },
 };
 
-// get the color of our product
+// get the color of our product. add a new image
 
 console.log(product.color);
 
